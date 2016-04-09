@@ -1,0 +1,347 @@
+@charset "utf-8";
+/* CSS Document */
+/*整体内外边距清零*/
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,input,button,fieldset, legend,img { margin:0; padding:0; }
+/*统一标题文字的样式*/
+h1,h2,h3,h4,h5,h6{ font-size:14px; }
+fieldset,img{ border:none; }
+img{display:block; }
+em{ font-style:normal;}
+li{list-style:none; }
+table{ border-collapse:collapse;}
+/*设置链接*/
+a{ color:#5C5C5C; text-decoration:none;}
+a:hover{ color:#C8000A;}
+/*特殊声明*/
+body{background:#fff; font-size:12px; font-family:微软雅黑; color:#5C5C5C;}
+.qds{ color:#C8000A;}
+.blue{color:#178ae6;}
+.huic{ color:#ccc;}
+.fl{ float:left;}
+.fr{ float:right;}
+.clearfix:after{ content:""; display:block; clear:both;}
+.clearfix{ zoom:1;}
+.spr{ background:transparent url(../images/sprite.png) no-repeat;}
+/*===============================初始化===============================*/
+
+/*首页样式共享开始*/
+/*头部样式开始*/
+.header{
+	height:45px;
+	background:url(../images/newhead_bg.jpg) repeat-x;
+	*position:relative;
+	*z-index:1;
+	}
+.inheader{
+	width:1002px;
+	height:45px;
+	margin:0 auto;
+	line-height:45px;
+	}
+.inheader h1{
+	float:left;
+	width:130px; height:45px;
+	background:url(../images/newhead_01.jpg) no-repeat;
+	text-indent:-999em;
+	}
+.inheader h1 a{
+	display:block;
+	width:130px; height:45px;
+	}
+.inheader .hotgame{
+	float:left;
+	width:280px; height:45px;
+	}
+.hotgame span,.hotgame li{
+	float:left;
+	*margin-left:5px;
+	}
+.hotgame span{
+	margin:0 5px;
+	color:#E4D4D4;
+	*display:none;
+	}
+.hotgame li{
+	padding-left:22px;
+	}
+.hotgame li.xxj{
+	background:url(../images/jxico.jpg) no-repeat left center;
+	}
+.hotgame li.frd{
+	background:url(../images/dj_fanren.jpg) no-repeat left center;
+	}
+.hotgame li.xjw{
+	background:url(../images/dj_x5q.jpg) no-repeat left center;
+	}
+.inheader .gamelist{
+	float:left;
+	width:99px; height:33px;
+	padding-top:12px;
+	position:relative;
+	}
+.gamelist dl dt{
+	width:99px; height:20px;
+	background:url(../images/head_list_cpml.png) no-repeat;
+	text-indent:20px;
+	line-height:20px;
+	}
+.gamelist dl dt:hover{
+	color:#C8000A;
+	}
+.gamelist dl dd div{
+	width:455px; height:9px;
+	background:url(../images/border-top.jpg.gif) no-repeat;
+	}
+.gamelist dl dd .games{
+	width:440px; height:90px;
+	background:url(../images/bg.jpg.gif) no-repeat left bottom;
+	padding:8px;
+	}
+.gamelist caption,.gamelist td{
+	background:url(../images/repeat.jpg) repeat-x;
+	text-align:left;
+	text-indent:5px;
+	}
+.gamelist caption{
+	border:1px solid #d6d6d6;
+	border-bottom:0;
+	width:437px; height:27px;
+	line-height:27px;
+	}
+.gamelist tr,.gamelist td{
+	border:1px solid #d6d6d6;
+	}
+.gamelist td{
+	width:84.5px; height:27px;
+	line-height:27px;
+	}
+.gamelist dl dd{
+	position:absolute;
+	top:32px;
+	left:-353px;
+	display:none;
+	z-index:1000;
+	}
+.gamelist dl:hover dd{
+	display:block;
+	}
+.inheader .scrollnews{
+	float:left;
+	width:276px; height:45px;
+	background:url(../images/bbs6.jpg) no-repeat 10px center;
+	position:relative;
+	overflow:hidden;
+	}
+.scrollnews ul{
+	position:absolute;
+	left:30px;
+	top:0;
+	}
+.scrollnews ul li a{
+	color:#C8000A;
+	text-align:left;
+	}
+.scrollnews ul li a:hover{
+	text-decoration:underline;
+	}
+.inheader .login{
+	float:left;
+	width:106px; height:45px;
+	}
+.login ul{
+	overflow:hidden;
+	zoom:1;
+	}
+.login ul li{
+	float:left;
+	width:55px; height:45px;
+	}
+.login ul li.second{
+	width:51px;
+	}
+.login ul li img{
+	display:inline-block;
+	vertical-align:middle;
+	}
+.inheader .more{
+	float:left;
+	width:90px; height:33px;
+	padding-top:12px;
+	position:relative;
+	}
+.more dt{
+	width:90px; height:20px;
+	background:url(../images/arr.jpg.gif) no-repeat left center;
+	text-indent:12px;
+	line-height:20px;
+	}
+.more dd{
+	width:90px;
+	position:absolute;
+	left:0;
+	top:32px;
+	display:none;
+	z-index:1000;
+	}
+.more dd ul{
+	width:90px;
+	}
+.more dd ul li{
+	width:90px; height:27px;
+	line-height:27px;
+	background:url(../images/repeat.jpg) repeat-x;
+	text-align:center;
+	}
+.more dl:hover dd{
+	display:block;
+	}
+/*头部样式结束*/
+
+/*主体样式开始*/
+.main{
+		width:100%;
+		background:url(../images/bg.jpg) no-repeat 50% 0;
+		}
+/*导航样式开始*/
+.main .nav{
+	width:1002px; height:544px;
+	margin:0 auto;
+	background:url(../images/head-bg.jpg) no-repeat;
+	}
+.pr{
+	position:relative;
+	}
+.pa{
+	position:absolute;
+	}
+.nav .nav_pa{
+	width:1002px;
+	height:55px;
+	/*background:pink;*/
+	top:50px;
+	padding-left:27px;
+	}
+.nav_pa ul{}
+.nav_pa ul li{
+	float:left;
+	}
+.nav_pa ul li.fourth{
+	margin-left:281px;
+	}
+.nav_pa ul li a{
+	display:inline-block;
+	width:112px; height:55px;
+	line-height:55px;
+	text-align:center;
+	font-size:15px;
+	color:#056478;
+	background:transparent url(../images/nav_hover_bg.png) no-repeat center center; 
+	visibility:hidden;
+	}
+.nav_pa ul li:hover a{
+	visibility:visible;
+	}
+.logo_pa{
+	left:355px;
+	z-index:10;
+	}
+.logo_pa a{
+	display:block;
+	width:300px; height:135px;
+	background:transparent url(../images/logo.png) no-repeat;
+	text-indent:-999em;
+	}
+.buy_pa{
+	top:372px;
+	}
+.buy_pa a{
+	display:block;
+	width:200px;
+	height:172px;
+	text-indent:-999em;
+	}
+/*导航样式结束*/
+.main .content{
+	width:1002px;
+	background:transparent url(../images/content-bg.jpg) no-repeat;
+	margin:0 auto;
+	overflow:hidden;
+	zoom:1;
+	}
+/*左侧栏样式开始*/
+.sub-nav{
+	width:183px; height:257px;
+	}
+.sub-nav .download{
+	width:180px; height:28px;
+	padding:49px 0 0 3px;
+	}
+.sub-nav .download a{
+	width:90px; height:28px;
+	line-height:28px;
+	text-indent:-999em;
+	}
+.download a.dl1:hover{
+	background:transparent url(../images/download.jpg) no-repeat -3px 0;
+	}
+.download a.dl2:hover{
+	background:transparent url(../images/download.jpg) no-repeat -93px 0;
+	}
+.sub-nav .intro a{
+	display:block;
+	height:36px;
+	padding-left:64px;
+	line-height:36px;
+	font-size:14px;
+	color:#fff;
+	background-position:-1000px -1000px;
+	}
+.sub-nav .intro a.intro1:hover{
+	background-position:-498px -50px;
+	}
+.sub-nav .intro a.intro2:hover{
+	background-position:-498px -86px;
+	}
+.sub-nav .intro a.intro3:hover{
+	background-position:-498px -122px;
+	}
+.sub-nav .intro a.intro4:hover{
+	background-position:-498px -158px;
+	}
+.sub-nav .intro a.intro5:hover{
+	background-position:-498px -194px;
+	}
+/*左侧栏样式结束*/
+
+/*主体样式结束*/
+
+/*底部样式开始*/
+.footer{
+	margin-top:70px;
+	height:99px;
+	background:url(../images/copyright_03.jpg) repeat-x;
+	}
+.infooter{
+	width:860px; height:99px;
+	margin:0 auto;
+	}
+.infooter .tupian{
+	height:75px;
+	float:left;
+	padding-top:24px;
+	}
+.infooter .tupian img{
+	float:left;
+	}
+.infooter .msg{
+	float:right;
+	width:449px; height:89px;
+	padding:10px 0 0 10px;
+	color:#595959;
+	}
+.infooter .msg p{
+	line-height:18px;
+	}
+/*底部样式结束*/
+/*首页样式共享结束*/
+

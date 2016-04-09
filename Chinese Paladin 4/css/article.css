@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*主体样式开始*/
+.main{
+	background:url(../images/news-bg.jpg) no-repeat 50% 0;
+	}
+/*导航样式开始*/
+.main .nav{
+	height:340px;
+	background:url(../images/head2-bg.jpg) no-repeat;
+	}
+/*导航样式结束*/
+
+/*版块内容样式开始*/
+.main .content{
+	background:none;
+	}
+/*左侧栏样式开始*/
+.content .l-col{
+	width:183px; height:1000px;
+	display:inline;
+	/*background:gray;*/
+	}
+.sub-nav{
+	width:183px; height:437px;
+	background:url(../images/news-sub-nav-bg.jpg) no-repeat;
+	}
+.sub-nav .download{
+	width:183px; height:246px;
+	padding:0;
+	}
+.sub-nav .download a{
+	display:block;
+	width:183px;
+	text-indent:-999em;
+	}
+.sub-nav .download .peiyin{
+	height:169px;
+	}
+.sub-nav .download .shuzi{
+	height:77px;
+	}
+.ad{
+	margin-bottom:10px;
+	}
+.sale{
+	border:1px solid #B0B8BE;
+	color:#122B40;
+	}
+.sale h2{
+	font-size:16px;
+	font-weight:400;
+	height:34px;
+	line-height:34px;
+	text-align:center;
+	background:#F5F5F5;
+	border-bottom:1px solid #B0B8BE;
+	}
+.sale .p1{
+	line-height:24px;
+	padding:10px;
+	}
+.sale .p2{
+	background:#F5F5F5;
+	line-height:24px;
+	text-align:center;
+	}
+.sale .p2 a{
+	color:#122B40;
+	}
+.sale .p2 a:hover{
+	text-decoration:underline;
+	}
+/*左侧栏样式结束*/
+/*右侧栏样式开始*/
+.content .r-col{
+	width:819px;
+	display:inline;
+	background:url(../images/news-right-bg.jpg) repeat-y;
+	}
+.top-bg{
+	width:819px;
+	background:url(../images/top-bg.jpg) no-repeat center top;
+	}
+.bottom-bg{
+	width:744px;
+	background:url(../images/bottom-bg.jpg) no-repeat center bottom;
+	padding:104px 27px 100px 48px;
+	}
+.crumb{
+	height:32px;
+	line-height:32px;
+	padding-left:32px;
+	color:#0E75A7;
+	}
+.crumb a{
+	color:#0E75A7;
+	}
+.crumb a:hover{
+	text-decoration:underline;
+	}
+.crumb span{
+	color:#1E99D5;
+	}
+.big-tit{
+	height:92px;
+	line-height:92px;
+	padding-left:32px;
+	font-size:30px;
+	color:#A7E2FF;
+	}
+.news-con{
+	padding:10px 40px;
+	color:#000;
+	}
+.news-title{
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:24px;
+	border-bottom:1px dotted #000;
+	}
+.news-date{
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	text-align:right;
+	}
+.news-text p{
+	font-size:14px;
+	line-height:24px;
+	text-indent:2em;
+	padding:5px 0;
+	}
+.news-text p a{
+	color:#0000ee;
+	}
+.news-text p a:hover{
+	text-decoration:underline;
+	}
+/*右侧栏样式结束*/
+
+/*版块内容样式结束*/
+
+/*主体样式结束*/
+
