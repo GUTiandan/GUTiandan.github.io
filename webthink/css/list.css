@@ -1,0 +1,128 @@
+/*banner样式开始*/
+.banner{
+	height: 300px;
+	background: url(../images/list-banner-bg.jpg) no-repeat center 0;
+	position: relative;
+}
+.banner .ban-bg{
+	width: 100%;
+	height: 54px;
+	background: url(../images/ban_bg.png) no-repeat center top;
+	position: absolute;
+	left: 0;
+	bottom: -30px;
+}
+/*banner样式结束*/
+
+/*主体样式开始*/
+.main{
+	width: 1170px; height: 1500px;
+	margin: 0 auto;
+}
+.title{
+	line-height:36px;
+	padding:50px 0;
+	text-align:center;
+	}
+.title h3{
+	font-size:30px;
+	color:#002;
+	margin-bottom:10px;
+	}
+.title h5{
+	font-size:20px;
+	color:#cacace;
+	font-family:Arial;
+	}
+.title h5 span{
+	color:#e4392a;
+	}
+.main ul{
+	margin: 0 -15px;
+}
+.main ul li{
+	width: 25%;
+	float: left;
+	margin-bottom: 30px;
+}
+.main ul li .pic{
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+.main ul .pad{
+	padding: 0 15px;
+}
+.main ul li img{
+	width: 100%;
+}
+.main ul li .txt{
+	border: 1px solid #e2e3e8;
+	padding: 20px 14px;
+	line-height: 20px;
+}
+.main .txt .title{
+	height: 55px;
+	margin-bottom: 20px;
+	line-height: 20px;
+	padding: 0;
+}
+.main .txt .title span{
+	float: left;
+	color: #666;
+	border: 1px solid #e2e3e8;
+	background: #f0f2f5;
+	padding: 6px 5px;
+	margin-right: 15px;
+}
+.main .txt .title span em{
+	display: block;
+	font-size: 16px;
+}
+.main .txt .title h3{
+	height: 54px;
+	border-bottom: 1px solid #e2e3e8;
+	font-size: 14px;
+	text-align: left;
+	overflow: hidden;
+}
+.main .txt .title h3 a{
+	color: #333;
+}
+.main .txt .title h3 a:hover{
+	color: #e4392a;
+}
+.main .txt a p{
+	color: #666;
+}
+.main ul li:hover .txt{
+	border: 1px solid #e4392a;
+}
+.main ul li:hover .pic{
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+.main .pages{
+	padding: 20px 0 105px 0;
+	text-align: center;
+}
+.main .pages a{
+	display: inline-block;
+	width: 41px; height: 41px;
+	background: #edecec;
+	border-radius: 3px;
+	margin: 0 4px;
+	line-height: 41px;
+	font-size: 18px;
+	color: #666;
+	font-family: Arial;
+	cursor: pointer;
+}
+.main .pages a.cur{
+	background: #e4392a;
+	color: #fff;
+}
+.main .pages a:hover{
+	background: #e4392a;
+	color: #fff;
+}
+/*主体样式结束*/

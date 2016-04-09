@@ -1,0 +1,63 @@
+/*主体样式开始*/
+.main{
+	padding-bottom: 70px;
+}
+.main .breadNav{
+	height: 76px;
+	background: #f8f9fa;
+}
+.main .breadNav p{
+	width: 1170px;
+	line-height: 76px;
+	margin: 0 auto;
+	font-family: '宋体';
+	color: #666;
+}
+.main .breadNav a{
+	color: #666;
+}
+.main .article{
+	width: 1170px;
+	margin: 0 auto;
+	color: #666;
+	line-height: 30px;
+}
+.main .article h2{
+	font-size: 26px;
+	color: #333;
+	text-align: center;
+	padding-top: 45px;
+}
+.main .article p.time{
+	text-align: center;
+	line-height: 72px;
+	border-bottom: 1px solid #999;
+	margin-bottom: 25px;
+}
+.main .article p{
+	text-indent: 2em;
+}
+.main .article span{
+	display: block;
+	width: 600px;
+	height: 414px;
+	background: url(../images/article01.jpg) no-repeat;
+	margin: 0 auto;
+}
+.main .article p b{
+	font-size: 14px;
+}
+.main .article p em{
+	color: #E53333;
+}
+.main .article .share{
+	padding-top: 20px;
+}
+.main .article .share span{
+	float: left;
+	font-size: 14px;
+	background: none;
+	width: auto;
+	height: auto;
+}
+/*主体样式结束*/
