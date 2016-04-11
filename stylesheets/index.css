@@ -1,0 +1,129 @@
+header{
+	width: 100%;
+	height: 160px;
+	background: url(../images/header-bg.png) center top no-repeat;
+}
+h1{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	color: #f4efd9;
+	font-size: 36px;
+	padding-top: 80px;
+	font-weight: normal;
+}
+.about{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 30px 0;
+	text-align: center;
+}
+.about .tit{
+	font-size: 30px;
+	width: 300px;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 auto;
+	position: relative;
+}
+.about .tit:before,.about .tit:after{
+	content: '';
+	height: 36px;
+	width: 36px;
+	background: url(../images/eye.png) 0 0 no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+}
+.about .tit:after{
+	left: auto;
+	right: 0;
+}
+.about .tit:hover:before,.about .tit:hover:after{
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.about .con{
+	margin-top: 20px;
+}
+.about .con img{
+	margin: 0 auto 10px;
+}
+.about .con span{
+	line-height: 24px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.about .con p{
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 10px;
+}
+.part2 .con li{
+	float: left;
+	width: 25%;
+	height: 310px;
+	/* background-color: pink; */
+}
+.part2 .con .pad{
+	margin:0 10px 10px;
+	height: 100%;
+}
+.part2 .con li .pad a{
+	display: block;
+	height: 100%;
+}
+.part2 .con li img{
+	width: 100%;
+}
+.part2 .con li img:hover{
+	opacity: .7;
+}
+.part2 .con li h4{
+	font-size: 16px;
+	font-weight: 400;
+}
+.part2 .con li p{
+	font-size: 14px;
+	margin-top: 5px;
+	line-height: 20px;
+	text-align: left;
+}
+.part3 .col-l{
+	width: 25%;
+	float: left;
+	background-color: #ffdcad;
+}
+.part3 .col-l li{
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.part3 .col-l li:hover{
+	background-color: #d7e9bf;
+}
+.part3 .col-r{
+	width: 75%;
+	float: left;
+	background-color: #d7e9bf;
+}
+.part3 .col-r .pad{
+	margin: 20px;
+}
+.part3 .col-r h3{
+	font-size: 16px;
+	line-height: 24px;
+}
+.part3 .col-r span{
+	font-size: 14px;
+	font-weight: normal;
+}
+.part3 .col-r p{
+	text-align: left;
+	text-indent: 2em;
+}

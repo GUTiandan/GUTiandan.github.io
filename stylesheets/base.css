@@ -1,0 +1,24 @@
+/*整体内外边距清零*/
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,input,button,fieldset, legend,img { margin:0; padding:0; }
+/*统一标题文字的样式*/
+h1,h2,h3,h4,h5,h6{ font-size:14px; }
+fieldset,img{ border:none; }
+img{display:block; }
+em{ font-style:normal;}
+li{list-style:none; }
+table{ border-collapse:collapse;}
+/*设置链接*/
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#f28200;}
+/*特殊声明*/
+body{background:#f4efd9; font-size:14px; font-family:微软雅黑; color:#333;}
+/*清浮动*/
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.clearfix{
+	zoom: 1; 
+}
+/*===============================初始化===============================*/
