@@ -157,18 +157,18 @@ body{
 	}
 .big-ban{
 	width:950px; height:300px;
-	margin-bottom:8px;
-	overflow:hidden;
-	position:relative;
+	padding-bottom:8px;
+	background-color: #fff;
 	}
 .big-ban ul{
-	height:300px; width:5700px;
-	position:absolute;
-	top:0;
-	left:0;
+	height:300px; width:950px;
+	position:relative;
 	}
 .big-ban ul li{
-	float:left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
 	}
 .sma-ban{
 	width:950px; height:62px;
@@ -182,7 +182,7 @@ body{
 	margin:0 auto;
 	}
 .insma-ban ul{
-	width:1366px; height:55px;
+	width:2240px; height:55px;
 	position:absolute;
 	left:0;
 	top:0;
@@ -333,7 +333,7 @@ img:hover{
 	margin-right:0;
 	}
 .r-col{
-	width:160px; height:675px;
+	width:160px; height:665px;
 	background:#fff;
 	float:right;
 	padding:10px 10px 0;

@@ -9,7 +9,7 @@ li{list-style:none; }
 table{ border-collapse:collapse;}
 /*设置链接*/
 a{ color:#333; text-decoration:none;}
-a:hover{ color:#f28200;}
+a:hover{ color:#333;}
 /*特殊声明*/
 body{background:#f4efd9; font-size:14px; font-family:微软雅黑; color:#333;}
 /*清浮动*/

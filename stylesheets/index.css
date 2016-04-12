@@ -16,7 +16,7 @@ h1{
 	width: 100%;
 	max-width: 1000px;
 	margin: 0 auto;
-	padding: 30px 0;
+	padding: 30px 0 60px;
 	text-align: center;
 }
 .about .tit{
@@ -69,10 +69,10 @@ h1{
 	float: left;
 	width: 25%;
 	height: 310px;
-	/* background-color: pink; */
+	/* background-color: lightpink; */
 }
 .part2 .con .pad{
-	margin:0 10px 10px;
+	margin:0 10px;
 	height: 100%;
 }
 .part2 .con li .pad a{
@@ -81,19 +81,44 @@ h1{
 }
 .part2 .con li img{
 	width: 100%;
+	margin-bottom: 0;
 }
 .part2 .con li img:hover{
 	opacity: .7;
 }
+.part2 .con li .txt{
+	border: 1px solid #ccc;
+	padding: 5px;
+	min-height: 106px;
+}
 .part2 .con li h4{
 	font-size: 16px;
 	font-weight: 400;
+	line-height: 26px;
 }
 .part2 .con li p{
 	font-size: 14px;
-	margin-top: 5px;
+	margin-top: 0;
 	line-height: 20px;
 	text-align: left;
+}
+.part2 .con li:hover .txt{
+	border-color: #EB5B5C;
+}
+.part2 span{
+	display: block;
+	margin: 0 auto;
+	width: 120px;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	background-color: #ccc;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.part2 span:hover{
+	background-color: #EB5B5C;
+	color: #fff;
 }
 .part3 .col-l{
 	width: 25%;
@@ -104,16 +129,16 @@ h1{
 	padding: 5px 10px;
 	cursor: pointer;
 }
-.part3 .col-l li:hover{
-	background-color: #d7e9bf;
-}
 .part3 .col-r{
 	width: 75%;
 	float: left;
 	background-color: #d7e9bf;
 }
-.part3 .col-r .pad{
-	margin: 20px;
+.part3 .col-r li .pad{
+	margin:15px;
+}
+.part3 .col-r li{
+	display: none;
 }
 .part3 .col-r h3{
 	font-size: 16px;
