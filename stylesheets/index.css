@@ -54,6 +54,9 @@ h1{
 }
 .about .con img{
 	margin: 0 auto 10px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
 }
 .about .con span{
 	line-height: 24px;
@@ -83,13 +86,8 @@ h1{
 	width: 100%;
 	margin-bottom: 0;
 }
-.part2 .con li img:hover{
-	opacity: .7;
-}
 .part2 .con li .txt{
-	border: 1px solid #ccc;
-	padding: 5px;
-	min-height: 106px;
+	padding: 10px 0 0;
 }
 .part2 .con li h4{
 	font-size: 16px;
@@ -100,14 +98,18 @@ h1{
 	font-size: 14px;
 	margin-top: 0;
 	line-height: 20px;
-	text-align: left;
+	text-align: justify;
+	text-align: left\9;
+}
+.part2 .con li:hover img{
+	opacity: .7;
 }
 .part2 .con li:hover .txt{
-	border-color: #EB5B5C;
+	text-decoration: underline;
 }
 .part2 span{
 	display: block;
-	margin: 0 auto;
+	margin: 20px auto 0;
 	width: 120px;
 	height: 40px;
 	font-size: 18px;
@@ -126,7 +128,7 @@ h1{
 	background-color: #ffdcad;
 }
 .part3 .col-l li{
-	padding: 5px 10px;
+	padding: 10px;
 	cursor: pointer;
 }
 .part3 .col-r{
@@ -151,4 +153,36 @@ h1{
 .part3 .col-r p{
 	text-align: left;
 	text-indent: 2em;
+}
+
+
+@media (min-width: 900px) { }
+@media (min-width: 500px) and (max-width: 700px) {
+	.part2 .con li{
+		width: 100%;
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.part2 .con li a{
+		overflow: hidden;
+	}
+	.part2 .con li img,.part2 .con li .txt{
+		float: left;	
+	}
+	.part2 .con li img{
+		width: 40%;
+		margin-right: 10px;
+	}
+	.part2 .con li .txt{
+		width: 50%;
+	}
+}
+@media (max-width: 499px) {
+	.part2 .con li{
+		width: 50%;
+		height: 300px;
+	}
+
+
+
 }

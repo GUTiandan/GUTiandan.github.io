@@ -109,10 +109,16 @@ header .box{
 	box-sizing: border-box;
 	background-color: #F5F5F5;
 	margin: 0 auto;
+	-webkit-display: flex;
+	display: flex;
+	-webkit-display: box;
+	display: box;
 }
 .pro div{
-	float: left;
-	width: 2.575rem;
+	-webkit-flex:1;
+	flex:1;
+	-webkit-box-flex:1;
+	box-flex:1;
 	height: 3.375rem;
 }
 .pro div:nth-child(2){
