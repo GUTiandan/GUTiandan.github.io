@@ -102,24 +102,21 @@ header .box{
 
 /* 促销商品开始 */
 .pro{
-	width: 8em;
-	height: 3.62rem;
+	width: 8rem;
+	height: 3.61rem;
 	padding: .1rem 0;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	background-color: #F5F5F5;
 	margin: 0 auto;
-	-webkit-display: flex;
-	display: flex;
-	-webkit-display: box;
-	display: box;
 }
 .pro div{
-	-webkit-flex:1;
-	flex:1;
-	-webkit-box-flex:1;
-	box-flex:1;
-	height: 3.375rem;
+	float: left;
+	height: 100%;	
+}
+.pro div img{
+	width: auto;
+	height: 100%;
 }
 .pro div:nth-child(2){
 	margin: 0 .1rem;
