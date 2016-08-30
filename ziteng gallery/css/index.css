@@ -1,0 +1,218 @@
+body{
+	background-color: #F1F1F1;
+}
+.header{
+	height: 95px;
+	border-bottom:1px solid #C4C4C4;
+	padding-top: 30px;
+}
+h1{
+	width: 190px;
+	height: 135px;
+	background: url(../images/logo.jpg) no-repeat;
+	margin: 0 auto;
+}
+h1 a{
+	display: block;
+	height: 100%;
+	text-indent: -999em;
+}
+/* =============导航部分=========== */
+.nav{
+	width: 840px;
+	height: 100px;
+	padding-top: 60px;
+	margin: 0 auto;
+}
+.nav ul li{
+	float: left;
+}
+.nav ul li a{
+	display: block;
+	padding: 7px 0;
+	margin: 0 34px;
+	font-size: 16px;
+	color: #262626;
+	border-bottom: 1px solid #F1F1F1;
+}
+.nav .subnav{
+	display: none;
+}
+.nav .subnav a{
+	display: inline-block;
+	font-size: 15px;
+	padding: 10px 0;
+	margin: 0;
+}
+.nav .subnav{
+	text-align: center;
+}
+.nav li:nth-child(3) .subnav a:nth-child(1),.nav li:nth-child(4) .subnav a:nth-child(1){
+	margin-right: 20px;
+}
+.nav ul li:hover a{
+	border-bottom-color: #A73B3B;
+}
+.nav ul li:hover .subnav{
+	display: block;
+}
+.nav ul li:hover .subnav a{
+	border-bottom-color: #F1F1F1; 
+}
+/* =============导航部分=========== */
+
+/* =============banner部分=========== */
+.banner{
+	width: 100%;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+}
+.banner img{
+	position: absolute;
+	left: 50%;
+	margin-left: -806px;
+}
+/* =============banner部分=========== */
+
+/* =============主体部分=========== */
+.wrap{
+	height: 530px;
+	padding-top: 10px;
+	width: 100%;
+	background-color: #fff;
+}
+.content{
+	width: 1180px;
+	margin: 0 auto ;
+}
+.content .part1,.content .part2{
+	float: left;
+}
+.content .part2{
+	margin-left: 84px;
+}
+.content .part3{
+	float: right;
+}
+.content h2{
+	font-weight: normal;
+	line-height: 100px;
+	font-size: 18px;
+	color: #333333;
+}
+.content .part1 div{
+	float: left;
+	position: relative;
+}
+.content .part1 .le{
+	margin-right: 2px;
+}
+.content .part1 img{
+	width: 198px;
+	height: 285px;
+}
+.content .part1 .txt{
+	padding: 20px;
+	width: 158px;
+	height: 245px;
+	background-color: rgba(255,255,255,.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 32px;
+	display: none;
+}
+.content .part1 .txt h3{
+	margin-bottom: 20px;
+}
+.content .part1 .le:hover .txt{
+	display: block;
+	color: #525252;
+}
+.content .part1 .rig:hover .txt{
+	display: block;
+	color: #525252;
+}
+
+.content .part2{
+	width: 334px;
+}
+.content .part2 h3{
+	font-size: 36px;
+	line-height: 46px;
+	color: #555555;
+	font-weight: normal;
+	margin-top: -7px;
+}
+.content .part2 h3 span{
+	font-size: 14px;
+	display: block;
+}
+.content .part2 ul li{
+	height: 32px;
+	line-height: 32px;
+}
+.content .part2 ul li span{
+	padding-right: 10px;
+}
+.more{
+	display: inline-block;
+	width: 50px;
+	height: 14px;
+	background: url(../images/list.png) no-repeat 0 0;
+}
+
+.content .part3{
+	width: 280px;
+}
+.content .part3 ul li{
+	float: left;
+	margin-right: 20px;
+}
+.content .part3 ul li:nth-child(3){
+	margin-right: 0px;
+}
+.content .part3 ul li img{
+	width: 80px;
+	height: 80px;
+}
+.content .part3 ul li span{
+	display: block;
+	line-height: 30px;
+	height: 30px;
+	text-align: center;
+	color: #525252; 
+}
+.content .part3 h2.lh40{
+	line-height: 40px;
+	margin-top: 30px;
+}
+.content .part3 p{
+	line-height: 26px;
+}
+/* =============主体部分=========== */
+
+/* =============底部部分=========== */
+.footer{
+	width: 100%;
+	height: 170px;
+	background-color: #292929;
+	color: #999999;
+	text-align: center;
+	line-height: 20px;
+	position: relative;
+}
+.footer h3{
+	padding: 25px 0 5px;
+}
+.footer span{
+	position: absolute;
+	top: -50px;
+	left: 50%;
+	margin-left: -37px;
+	height: 72px;
+	width: 74px;
+	background: url(../images/ftimg.png) 0 0 no-repeat;
+}
+/* =============底部部分=========== */
